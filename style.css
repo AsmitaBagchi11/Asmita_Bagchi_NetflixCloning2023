@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+.sign{
+    position: relative;
+    left: 75vw;
+    width: 13vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    padding: 1vh;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+
+select{
+    font-size: 2.5vh;
+    padding: 1.25vh;
+    position: relative;
+    left: 73vw;
+    top: 0.5vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid rgb(54, 52, 52);
+    color: white;
+    border-radius: 0.5vh;
+    width: 20vh;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    background-image: url(lang.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 5vh;
+}
+
+.box {
+    position: relative;
+    color: white;
+
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 8vh;
+    top: 40vh;
+    font-weight: 1000;
+}
+
+.watch {
+    position: relative;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    font-size: 4vh;
+    top: 42vh;
+}
+
+.ready {
+    position: relative;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    font-size: 3.5vh;
+    top: 46vh;
+}
+
+.email {
+    position: relative;
+    top: 48vh;
+}
+
+.in {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: aquamarine;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 0.5vh;
+    width: 80vh;
+    font-size: 2.7vh;
+    padding: 3vh;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+
+button {
+    position: relative;
+    top: 0.5vh;
+    font-size: 4vh;
+    padding: 2vh;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    background-color: rgb(213, 5, 5);
+    border: none;
+    border-radius: 0.5vh;
+    color: white;
+    font-weight: 600;
+}
+
+::placeholder {
+    color: rgb(169, 164, 164);
+}
+
+button:hover{
+    text-decoration: underline;
+
+}
